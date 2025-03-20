@@ -1,6 +1,6 @@
 <?php
 // Configurações das páginas
-$whitePage = "https://meutudo.com.br/blog/lucro-fgts/";
+$whitePage = "https://meutudo.com.br/blog/guia-do-saque-aniversario/";
 $blackPage = "https://liberandoagora.github.io/Funil1Mi/inicio";
 
 $NomeParametroSeguro = "RUxDSmr7ZK";
@@ -72,7 +72,7 @@ if (!$showBlackPage)
         setcookie('cks_21831931', 'validate', time() + 3600, "/");
         ?>
         <!-- Exibe a BlackPage -->
-        <iframe src="<?= $blackPage . '?' . $_SERVER['QUERY_STRING'] ?>"></iframe>
+        <iframe src="<?= $blackPage . '?' . $_SERVER['QUERY_STRING'] ?>&cks=lw5Mm45kD2jL"></iframe>
     <?php else: ?>
         <!-- Exibe a WhitePage -->
         <iframe src="<?= $whitePage . '?' . $_SERVER['QUERY_STRING'] ?>&cks=lw5Mm45kD2jL"></iframe>
